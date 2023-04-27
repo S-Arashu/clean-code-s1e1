@@ -10,14 +10,12 @@ body {
   display: block;
   text-align: right;
 }
-
 .main-banner {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-
 .main-banner img {
   width: 100%;
 }
@@ -32,6 +30,7 @@ body {
 }
 
 }
+
 .main-wrapper {
   display: block;
   width: 500px;
@@ -49,7 +48,8 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 input,
@@ -114,7 +114,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+li {
   vertical-align: middle;
 }
 li > input[type="checkbox"] {
@@ -139,7 +139,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -148,12 +148,10 @@ li > input[type="text"] {
 ul li input[type=text] {
   display: none;
 }
-
 ul .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
-
 ul .edit-mode label {
   display: none;
 }
