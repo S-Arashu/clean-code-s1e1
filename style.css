@@ -26,9 +26,11 @@ body {
 }
 
 @media (max-width:768px) {
+
 .main-banner { 
   text-align: center;
 }
+
 }
 .main-wrapper {
   display: block;
